@@ -1,1 +1,6 @@
 kubectl create configmap special-config --from-literal=special.how=very --from-literal=special.type=charm
+ docker build -t asia.gcr.io/startup-194601/hello-node:1.1.1 .
+ kubectl run hello-web --image=asia.gcr.io/startup-194601/hello-node:1.0.0  --port 8080
+ kubectl expose deployment hello-web --type "LoadBalancer"
+ 
+ gcloud container clusters create k8s-cluster --num-nodes=5
