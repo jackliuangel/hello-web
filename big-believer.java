@@ -4,6 +4,8 @@ big believer of frequent release:
 	2. fail fast to aglin with the user value
 	3. reduce the failure dependancy, suppose if this base is wrong....
 	4. user does not know the business value, until we put it in production and which is used most
+	5. Delivering Small things frequently , break less。that is the best IT can do. 
+
 
 Finally, we can get feedback from user after each small release. That is how we interact with user.
 
@@ -22,8 +24,16 @@ Pod model
 	1. must localized, not multi-nation
 	2. each one is full-stack, roles can be rotated, not static
 	3.  PO, BA, Developer are mandatory. But BA is requried ONLY when process change(BA is NOT just gathering what the user said)
-	4.  PO is used to signoff; prioritization
+	4.  PO is used to signoff; prioritization，Make sure they have commercial value
 	5. 6-8 is the best size of people
 
+
+
+
+被问到，cloud会否在HSBC推行，
+回答：可能的，有3点原因
+Tech feasible
+Save money
+HSBC possible
 
 
